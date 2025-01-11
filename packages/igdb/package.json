@@ -49,7 +49,7 @@
     "@favware/cliff-jumper": "^5.0.0",
     "@sapphire/utilities": "^3.18.1",
     "@vitest/coverage-v8": "^2.1.8",
-    "eslint": "^9.17.0",
+    "eslint": "^9.18.0",
     "eslint-formatter-pretty": "^6.0.1",
     "prettier": "^3.4.2",
     "tsup": "^8.3.5",
