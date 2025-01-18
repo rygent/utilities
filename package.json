@@ -24,7 +24,7 @@
     "@dotenvx/dotenvx": "^1.32.1",
     "@sapphire/node-utilities": "^1.0.2",
     "@types/lodash.merge": "^4.6.9",
-    "@types/node": "^22.10.5",
+    "@types/node": "^22.10.7",
     "@vitest/coverage-v8": "^2.1.8",
     "colorette": "^2.0.20",
     "esbuild-plugin-file-path-extensions": "^2.1.4",
