@@ -43,7 +43,7 @@
   "funding": "https://github.com/rygent/utilities?sponsor",
   "homepage": "https://github.com/rygent/utilities/tree/main/packages/igdb",
   "dependencies": {
-    "undici": "^7.2.3"
+    "undici": "^7.3.0"
   },
   "devDependencies": {
     "@favware/cliff-jumper": "^5.0.0",
