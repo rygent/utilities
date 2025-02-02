@@ -19,8 +19,8 @@
     "url": "https://github.com/rygent/utilities.git"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.6.1",
-    "@commitlint/config-angular": "^19.7.0",
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-angular": "^19.7.1",
     "@dotenvx/dotenvx": "^1.34.0",
     "@sapphire/node-utilities": "^1.0.2",
     "@types/lodash.merge": "^4.6.9",
