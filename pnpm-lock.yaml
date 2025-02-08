@@ -27,8 +27,8 @@ importers:
         specifier: ^22.13.1
         version: 22.13.1
       '@vitest/coverage-v8':
-        specifier: ^2.1.8
-        version: 2.1.8(vitest@2.1.8(@types/node@22.13.1))
+        specifier: ^2.1.9
+        version: 2.1.9(vitest@2.1.8(@types/node@22.13.1))
       colorette:
         specifier: ^2.0.20
         version: 2.0.20
@@ -94,8 +94,8 @@ importers:
         specifier: ^3.18.2
         version: 3.18.2
       '@vitest/coverage-v8':
-        specifier: ^2.1.8
-        version: 2.1.8(vitest@2.1.8(@types/node@22.13.1))
+        specifier: ^2.1.9
+        version: 2.1.9(vitest@2.1.8(@types/node@22.13.1))
       eslint:
         specifier: ^9.20.0
         version: 9.20.0(jiti@2.4.1)
@@ -131,8 +131,8 @@ importers:
         specifier: ^3.18.2
         version: 3.18.2
       '@vitest/coverage-v8':
-        specifier: ^2.1.8
-        version: 2.1.8(vitest@2.1.8(@types/node@22.13.1))
+        specifier: ^2.1.9
+        version: 2.1.9(vitest@2.1.8(@types/node@22.13.1))
       eslint:
         specifier: ^9.20.0
         version: 9.20.0(jiti@2.4.1)
@@ -211,8 +211,8 @@ importers:
         specifier: ^3.18.2
         version: 3.18.2
       '@vitest/coverage-v8':
-        specifier: ^2.1.8
-        version: 2.1.8(vitest@2.1.8(@types/node@22.13.1))
+        specifier: ^2.1.9
+        version: 2.1.9(vitest@2.1.8(@types/node@22.13.1))
       eslint:
         specifier: ^9.20.0
         version: 9.20.0(jiti@2.4.1)
@@ -1678,11 +1678,11 @@ packages:
     resolution: {integrity: sha512-AWpYAXnUgvLNabGTy3uBylkgZoosva/miNd1I8Bz3SjotmQPbVqhO4Cczo8AsZ44XVErEBPr/CRSgaj8sG7g0w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@vitest/coverage-v8@2.1.8':
-    resolution: {integrity: sha512-2Y7BPlKH18mAZYAW1tYByudlCYrQyl5RGvnnDYJKW5tCiO5qg3KSAy3XAxcxKz900a0ZXxWtKrMuZLe3lKBpJw==}
+  '@vitest/coverage-v8@2.1.9':
+    resolution: {integrity: sha512-Z2cOr0ksM00MpEfyVE8KXIYPEcBFxdbLSs56L8PO0QQMxt/6bDj45uQfxoc96v05KW3clk7vvgP0qfDit9DmfQ==}
     peerDependencies:
-      '@vitest/browser': 2.1.8
-      vitest: 2.1.8
+      '@vitest/browser': 2.1.9
+      vitest: 2.1.9
     peerDependenciesMeta:
       '@vitest/browser':
         optional: true
@@ -6135,7 +6135,7 @@ snapshots:
       '@typescript-eslint/types': 8.22.0
       eslint-visitor-keys: 4.2.0
 
-  '@vitest/coverage-v8@2.1.8(vitest@2.1.8(@types/node@22.13.1))':
+  '@vitest/coverage-v8@2.1.9(vitest@2.1.8(@types/node@22.13.1))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 0.2.3
