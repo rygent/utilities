@@ -25,7 +25,7 @@
     "@sapphire/node-utilities": "^1.0.2",
     "@types/lodash.merge": "^4.6.9",
     "@types/node": "^22.13.1",
-    "@vitest/coverage-v8": "^2.1.8",
+    "@vitest/coverage-v8": "^2.1.9",
     "colorette": "^2.0.20",
     "esbuild-plugin-file-path-extensions": "^2.1.4",
     "eslint": "^9.20.0",
