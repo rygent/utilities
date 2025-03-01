@@ -21,7 +21,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.7.1",
     "@commitlint/config-angular": "^19.7.1",
-    "@dotenvx/dotenvx": "^1.37.0",
+    "@dotenvx/dotenvx": "^1.38.3",
     "@sapphire/node-utilities": "^1.0.2",
     "@types/lodash.merge": "^4.6.9",
     "@types/node": "^22.13.7",
