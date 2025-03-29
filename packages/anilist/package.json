@@ -49,7 +49,7 @@
     "undici": "^7.6.0"
   },
   "devDependencies": {
-    "@favware/cliff-jumper": "^5.0.0",
+    "@favware/cliff-jumper": "^6.0.0",
     "@graphql-codegen/cli": "^5.0.5",
     "@graphql-codegen/typescript": "^4.1.6",
     "@sapphire/utilities": "^3.18.2",
