@@ -50,7 +50,7 @@
     "winston-transport": "^4.9.0"
   },
   "devDependencies": {
-    "@favware/cliff-jumper": "^5.0.0",
+    "@favware/cliff-jumper": "^6.0.0",
     "eslint": "^9.23.0",
     "eslint-formatter-pretty": "^6.0.1",
     "prettier": "^3.5.3",
