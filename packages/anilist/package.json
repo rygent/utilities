@@ -45,7 +45,7 @@
   "funding": "https://github.com/rygent/utilities?sponsor",
   "homepage": "https://github.com/rygent/utilities/tree/main/packages/anilist",
   "dependencies": {
-    "html-entities": "^2.5.5",
+    "html-entities": "^2.5.6",
     "undici": "^7.6.0"
   },
   "devDependencies": {
