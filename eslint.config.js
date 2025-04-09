@@ -2,7 +2,7 @@ import tseslint from 'typescript-eslint';
 import common from 'eslint-config-terrax/common';
 import node from 'eslint-config-terrax/node';
 import typescript from 'eslint-config-terrax/typescript';
-import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
+import prettier from 'eslint-config-terrax/prettier';
 import merge from 'lodash.merge';
 
 const commonFiles = '{js,mjs,cjs,ts}';
@@ -18,6 +18,9 @@ const mainRulesets = [...common, ...node, ...typescript].map((config) =>
 				tsconfigRootDir: import.meta.dirname
 			}
 		},
+		rules: {
+			'no-restricted-globals': 'off'
+		},
 		settings: {
 			'import-x/resolver': {
 				typescript: {
@@ -27,6 +30,10 @@ const mainRulesets = [...common, ...node, ...typescript].map((config) =>
 		}
 	})
 );
+
+const prettierRuleset = merge(...prettier, {
+	files: [`**/*${commonFiles}`]
+});
 
 export default tseslint.config(
 	...mainRulesets,
@@ -40,8 +47,11 @@ export default tseslint.config(
 	{
 		files: [`**/*${commonFiles}`],
 		rules: {
-			'import-x/no-duplicates': ['error', { 'prefer-inline': true }]
+			'import-x/no-duplicates': ['error', { 'prefer-inline': true }],
+			'n/prefer-global/process': ['warn', 'always'],
+			'n/prefer-global/url': ['warn', 'always'],
+			'n/prefer-global/url-search-params': ['warn', 'always']
 		}
 	},
-	eslintPluginPrettierRecommended
+	prettierRuleset
 );
