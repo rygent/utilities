@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+# [@rygent/logger@1.1.1](https://github.com/rygent/utilities/compare/@rygent/logger@1.1.0...@rygent/logger@1.1.1) - (2025-04-09)
+
+## Bug Fixes
+
+- Update import paths to use relative paths ([b18b951](https://github.com/rygent/utilities/commit/b18b951904170c66be0e5d1fb4e4d206ea3872c2)) by @rygent
+
 # [@rygent/logger@1.1.0](https://github.com/rygent/utilities/tree/@rygent/logger@1.1.0) - (2025-04-09)
 
 ## Features
