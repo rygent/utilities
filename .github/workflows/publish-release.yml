@@ -10,6 +10,7 @@ on:
         options:
           - '@rygent/anilist'
           - '@rygent/igdb'
+          - '@rygent/logger'
           - '@rygent/spotify'
       skip-automatic-bump:
         description: Whether to skip the automatic bumping of the packageversion

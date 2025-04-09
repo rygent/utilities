@@ -10,6 +10,7 @@ on:
         options:
           - '@rygent/anilist'
           - '@rygent/igdb'
+          - '@rygent/logger'
           - '@rygent/spotify'
 
 jobs:
