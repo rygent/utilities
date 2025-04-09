@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/consistent-indexed-object-style */
-/* eslint-disable @stylistic/max-len */
 
 export type Maybe<T> = T | null;
 export type InputMaybe<T> = Maybe<T>;

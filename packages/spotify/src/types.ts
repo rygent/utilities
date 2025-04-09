@@ -1,4 +1,3 @@
-/* eslint-disable @stylistic/max-len */
 export interface SpotifyOptions {
 	id: string;
 	secret: string;
