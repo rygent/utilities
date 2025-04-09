@@ -1,6 +1,6 @@
 import { format } from 'winston';
 import { blackBright, italic, whiteBright } from 'colorette';
-import { levelColors } from '@/lib/constants';
+import { levelColors } from './constants.js';
 import moment from 'moment';
 
 function stackTrace(stack: string) {

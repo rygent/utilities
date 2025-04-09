@@ -1,7 +1,7 @@
 import { createLogger, type LeveledLogMethod, Logger, transports } from 'winston';
-import { Discord } from '@/lib/discord-transport';
-import { levels } from '@/lib/constants';
-import { formatter } from '@/lib/utils';
+import { Discord } from './lib/discord-transport.js';
+import { levels } from './lib/constants.js';
+import { formatter } from './lib/utils.js';
 import moment from 'moment';
 import 'moment-timezone';
 import 'winston-daily-rotate-file';
