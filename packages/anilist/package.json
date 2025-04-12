@@ -46,7 +46,7 @@
   "homepage": "https://github.com/rygent/utilities/tree/main/packages/anilist",
   "dependencies": {
     "html-entities": "^2.6.0",
-    "undici": "^7.7.0"
+    "undici": "^7.8.0"
   },
   "devDependencies": {
     "@favware/cliff-jumper": "^6.0.0",
