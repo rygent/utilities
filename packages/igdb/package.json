@@ -48,14 +48,14 @@
   "devDependencies": {
     "@favware/cliff-jumper": "^6.0.0",
     "@sapphire/utilities": "^3.18.2",
-    "@vitest/coverage-v8": "^3.1.1",
+    "@vitest/coverage-v8": "^3.1.2",
     "eslint": "^9.25.1",
     "eslint-formatter-pretty": "^6.0.1",
     "prettier": "^3.5.3",
     "tsup": "^8.4.0",
     "tsx": "^4.19.3",
     "typescript": "^5.8.3",
-    "vitest": "^3.1.1"
+    "vitest": "^3.1.2"
   },
   "files": [
     "./dist/"
