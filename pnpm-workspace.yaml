@@ -1,4 +1,14 @@
+autoInstallPeers: true
+
+resolutionMode: 'highest'
+
+publicHoistPattern:
+  - '*eslint*'
+  - '*prettier*'
+
 packages:
   - 'packages/*'
+
 onlyBuiltDependencies:
   - 'esbuild'
+  - 'unrs-resolver'
