@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@favware/cliff-jumper": "^6.0.0",
-    "@graphql-codegen/cli": "^5.0.6",
+    "@graphql-codegen/cli": "^5.0.7",
     "@graphql-codegen/typescript": "^4.1.6",
     "@sapphire/utilities": "^3.18.2",
     "@vitest/coverage-v8": "^3.1.4",
