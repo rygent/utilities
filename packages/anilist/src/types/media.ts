@@ -10,10 +10,10 @@ export interface MediaSearchOptions {
 export interface MediaEntry extends Omit<Media, 'characters' | 'endDate' | 'startDate' | 'studios'> {
 	/** The characters in the media */
 	characters?: Character[] | null;
-	/** The last official release date of the media */
-	endDate?: number | null;
 	/** The first official release date of the media */
-	startDate?: number | null;
+	startDate?: string | null;
+	/** The last official release date of the media */
+	endDate?: string | null;
 	/** The companies who produced the media */
 	studios?: Studio[] | null;
 }
