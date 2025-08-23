@@ -115,8 +115,8 @@ importers:
   packages/igdb:
     dependencies:
       undici:
-        specifier: ^7.14.0
-        version: 7.14.0
+        specifier: ^7.15.0
+        version: 7.15.0
     devDependencies:
       '@favware/cliff-jumper':
         specifier: ^6.0.0
@@ -170,8 +170,8 @@ importers:
         specifier: ^0.6.0
         version: 0.6.0
       undici:
-        specifier: ^7.14.0
-        version: 7.14.0
+        specifier: ^7.15.0
+        version: 7.15.0
       winston:
         specifier: ^3.17.0
         version: 3.17.0
@@ -214,8 +214,8 @@ importers:
   packages/spotify:
     dependencies:
       undici:
-        specifier: ^7.14.0
-        version: 7.14.0
+        specifier: ^7.15.0
+        version: 7.15.0
     devDependencies:
       '@favware/cliff-jumper':
         specifier: ^6.0.0
@@ -3041,8 +3041,8 @@ packages:
   undici-types@7.10.0:
     resolution: {integrity: sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==}
 
-  undici@7.14.0:
-    resolution: {integrity: sha512-Vqs8HTzjpQXZeXdpsfChQTlafcMQaaIwnGwLam1wudSSjlJeQ3bw1j+TLPePgrCnCpUXx7Ba5Pdpf5OBih62NQ==}
+  undici@7.15.0:
+    resolution: {integrity: sha512-7oZJCPvvMvTd0OlqWsIxTuItTpJBpU1tcbVl24FMn3xt3+VSunwUasmfPJRE57oNO1KsZ4PgA1xTdAX4hq8NyQ==}
     engines: {node: '>=20.18.1'}
 
   unicorn-magic@0.1.0:
@@ -6174,7 +6174,7 @@ snapshots:
 
   undici-types@7.10.0: {}
 
-  undici@7.14.0: {}
+  undici@7.15.0: {}
 
   unicorn-magic@0.1.0: {}
 
