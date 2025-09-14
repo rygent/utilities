@@ -53,7 +53,7 @@
   "devDependencies": {
     "@favware/cliff-jumper": "^6.0.0",
     "@sapphire/utilities": "^3.18.2",
-    "@types/node": "^24.3.3",
+    "@types/node": "^24.4.0",
     "@vitest/coverage-v8": "^3.2.4",
     "eslint": "^9.35.0",
     "eslint-formatter-pretty": "^6.0.1",
