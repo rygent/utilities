@@ -15,8 +15,8 @@ importers:
         specifier: ^19.8.1
         version: 19.8.1
       '@dotenvx/dotenvx':
-        specifier: ^1.49.0
-        version: 1.49.0
+        specifier: ^1.50.1
+        version: 1.50.1
       '@sapphire/node-utilities':
         specifier: ^1.0.2
         version: 1.0.2
@@ -386,8 +386,8 @@ packages:
     resolution: {integrity: sha512-eddz6UnOBEB1oITPinyrB2Pttej49M9FZQY8NxgEvc3tq6ZICZ19m70RsmzRdDHk80O9NoYN/25AqJl8vPVf/g==}
     engines: {node: '>=18'}
 
-  '@dotenvx/dotenvx@1.49.0':
-    resolution: {integrity: sha512-M1cyP6YstFQCjih54SAxCqHLMMi8QqV8tenpgGE48RTXWD7vfMYJiw/6xcCDpS2h28AcLpTsFCZA863Ge9yxzA==}
+  '@dotenvx/dotenvx@1.50.1':
+    resolution: {integrity: sha512-0hymEluMsQwwukPcnF7IjhmgA6j2jaZtfOtFafOgeZi24BJHY1lHlqwD7dO46KF9WCfpBB3J5uAEwlgBOzAAxg==}
     hasBin: true
 
   '@ecies/ciphers@0.2.4':
@@ -3406,7 +3406,7 @@ snapshots:
 
   '@discordjs/util@1.1.1': {}
 
-  '@dotenvx/dotenvx@1.49.0':
+  '@dotenvx/dotenvx@1.50.1':
     dependencies:
       commander: 11.1.0
       dotenv: 17.2.1
