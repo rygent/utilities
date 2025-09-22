@@ -1,11 +1,11 @@
-import { fetcher } from '@/lib/util/fetcher.js';
+import { fetcher } from '../util/fetcher.js';
 import {
 	type SpotifyBearerToken,
 	type SearchForItemParameterObject,
 	type SpotifyOauth2Result,
 	type SpotifyOptions,
 	type SearchResponse
-} from '@/types/spotify.js';
+} from '../../types/spotify.js';
 
 export class Spotify {
 	private readonly clientId: string;

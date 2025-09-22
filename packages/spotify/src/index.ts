@@ -1,1 +1,1 @@
-export * from '@/lib/structures/spotify.js';
+export * from './lib/structures/spotify.js';
