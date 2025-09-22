@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [@rygent/spotify@1.2.1](https://github.com/rygent/utilities/compare/@rygent/spotify@1.2.0...@rygent/spotify@1.2.1) - (2025-09-22)
+
+## Refactor
+
+- Update import paths to relative references ([a484458](https://github.com/rygent/utilities/commit/a4844582a00b6cb6fad83a6bf31f8ae1b65befd8)) by @rygent
+- Use builtin fetch ([81fb005](https://github.com/rygent/utilities/commit/81fb005b3ed2f682117fd162ce476799ed995024)) by @rygent
+
 # [@rygent/spotify@1.2.0](https://github.com/rygent/utilities/compare/@rygent/spotify@1.1.1...@rygent/spotify@1.2.0) - (2024-11-22)
 
 ## Documentation
