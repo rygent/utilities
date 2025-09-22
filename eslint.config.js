@@ -1,4 +1,4 @@
-import tseslint from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 import common from 'eslint-config-terrax/common';
 import node from 'eslint-config-terrax/node';
 import typescript from 'eslint-config-terrax/typescript';
@@ -35,7 +35,7 @@ const prettierRuleset = merge(...prettier, {
 	files: [`**/*${commonFiles}`]
 });
 
-export default tseslint.config(
+export default defineConfig(
 	...mainRulesets,
 	{
 		languageOptions: {
