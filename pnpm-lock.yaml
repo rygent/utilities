@@ -212,10 +212,6 @@ importers:
         version: 2.7.0
 
   packages/spotify:
-    dependencies:
-      undici:
-        specifier: ^7.16.0
-        version: 7.16.0
     devDependencies:
       '@favware/cliff-jumper':
         specifier: ^6.0.0

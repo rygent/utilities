@@ -47,9 +47,6 @@
   },
   "funding": "https://github.com/rygent/utilities?sponsor",
   "homepage": "https://github.com/rygent/utilities/tree/main/packages/spotify",
-  "dependencies": {
-    "undici": "^7.16.0"
-  },
   "devDependencies": {
     "@favware/cliff-jumper": "^6.0.0",
     "@sapphire/utilities": "^3.18.2",

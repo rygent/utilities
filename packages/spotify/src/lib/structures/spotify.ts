@@ -1,14 +1,11 @@
-import { fetch } from 'undici';
-import type {
-	SpotifyBearerToken,
-	SearchForItemParameterObject,
-	SpotifyOauth2Result,
-	SpotifyOptions,
-	SearchResponse
-} from '@/types.js';
-
-const endpoint = 'https://api.spotify.com/v1/';
-const oauth2 = 'https://accounts.spotify.com/api/token';
+import { fetcher } from '@/lib/util/fetcher.js';
+import {
+	type SpotifyBearerToken,
+	type SearchForItemParameterObject,
+	type SpotifyOauth2Result,
+	type SpotifyOptions,
+	type SearchResponse
+} from '@/types/spotify.js';
 
 export class Spotify {
 	private readonly clientId: string;
@@ -36,8 +33,9 @@ export class Spotify {
 	 */
 	public async search({ type, query, offset = 0, limit = 20 }: SearchForItemParameterObject): Promise<SearchResponse> {
 		const accessToken = await this.getAccessToken();
-		const response = await fetch(
-			`${endpoint}search?q=${encodeURIComponent(query)}&type=${type}&offset=${offset}&limit=${limit}`,
+
+		const res = await fetcher<SearchResponse>(
+			`https://api.spotify.com/v1/search?q=${encodeURIComponent(query)}&type=${type}&offset=${offset}&limit=${limit}`,
 			{
 				method: 'GET',
 				headers: {
@@ -46,17 +44,7 @@ export class Spotify {
 			}
 		);
 
-		if (response.ok) {
-			const result = await response.json();
-
-			return result as SearchResponse;
-		}
-
-		if (response.statusText) {
-			throw new Error(`Received status ${response.status} (${response.statusText})`);
-		}
-
-		throw new Error(`Received status ${response.status}`);
+		return res;
 	}
 
 	/**
@@ -77,7 +65,7 @@ export class Spotify {
 	 * @throws {Error} If the request to the Spotify API fails.
 	 */
 	private async generateBearerToken(): Promise<string> {
-		const response = await fetch(oauth2, {
+		const res = await fetcher<SpotifyOauth2Result>('https://accounts.spotify.com/api/token', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/x-www-form-urlencoded'
@@ -89,16 +77,7 @@ export class Spotify {
 			})
 		});
 
-		if (response.ok) {
-			const result = (await response.json()) as SpotifyOauth2Result;
-			this.bearer = { token: result.access_token, expire: Date.now() + result.expires_in * 1e3 };
-			return result.access_token;
-		}
-
-		if (response.statusText) {
-			throw new Error(`Received status ${response.status} (${response.statusText})`);
-		}
-
-		throw new Error(`Received status ${response.status}`);
+		this.bearer = { token: res.access_token, expire: Date.now() + res.expires_in * 1e3 };
+		return res.access_token;
 	}
 }
