@@ -35,10 +35,10 @@ jobs:
           token: ${{ secrets.BOT_TOKEN }}
       - name: Use pnpm
         uses: pnpm/action-setup@v4
-      - name: Use Node.js v22
+      - name: Use Node.js v24
         uses: actions/setup-node@v5
         with:
-          node-version: 22.19.0
+          node-version: 24
           cache: pnpm
           registry-url: https://registry.npmjs.org/
       - name: Install dependencies
