@@ -42,7 +42,7 @@
   "funding": "https://github.com/rygent/utilities?sponsor",
   "homepage": "https://github.com/rygent/utilities/tree/main/packages/logger",
   "dependencies": {
-    "@discordjs/builders": "^1.12.2",
+    "@discordjs/builders": "^1.13.0",
     "@discordjs/formatters": "^0.6.1",
     "colorette": "^2.0.20",
     "moment": "^2.30.1",
