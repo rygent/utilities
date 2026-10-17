@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@favware/cliff-jumper": "^6.1.0",
-    "@sapphire/utilities": "^3.18.2",
+    "@sapphire/utilities": "^3.18.3",
     "@types/node": "^24.19.2",
     "@vitest/coverage-v8": "^3.2.7",
     "eslint": "^9.39.5",
